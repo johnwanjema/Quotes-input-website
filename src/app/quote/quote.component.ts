@@ -8,12 +8,13 @@ import { Quotes } from '../quotes';
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-    new Quotes(1, 'I am thankful for all of those who said NO to me. Its because of them im doing it myself.', `Albert Einstein`, 0),
-    new Quotes(2, 'Buy Cookies because ', `wanje`, 0),
-    new Quotes(3, 'Get new Phone Case', `wanje`, 0),
-    new Quotes(4, 'Get Dog Food', `wanje`, 0),
-    new Quotes(5, 'Solve math homework', `wanje`, 0),
-    new Quotes(6, 'Plot my world domination plan', `wanje`, 0),
+    new Quotes(1, 'I am thankful for all of those who said NO to me. It`s because of them i`m doing it myself.', `Albert Einstein`, 0),
+    new Quotes(2, 'If you do what youve always done, you`ll get what youve always gotten. ', `Tony Robbins
+    `, 0),
+    new Quotes(3, 'Once you choose hope, anything’s possible.', `john wanjema`, 0),
+    new Quotes(4, 'பயம்தான் பாதித் தோல்விக்குக் காரணம்', ` சுஜாதா [Sujatha]`, 0),
+    new Quotes(5, 'I call her Google because she got everything I have been searching for.', `Genereux Philip`, 0),
+   
 
   ]
   constructor() { }
