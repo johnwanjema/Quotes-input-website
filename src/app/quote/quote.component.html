@@ -1,6 +1,7 @@
 <div class="container">
+    <p appHighlight>Highlight me!</p>
   <div *ngFor='let quote of quotes'>
-    <li>{{quote.name}} {{quote.vote}}</li>
+    <li>{{quote.name}} due on {{quote.completeDate|date}}</li>
     <app-quote-details [quote]='quote'></app-quote-details>
   </div>
 </div>
