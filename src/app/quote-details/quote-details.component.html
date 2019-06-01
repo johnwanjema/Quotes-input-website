@@ -3,7 +3,7 @@
 <p>votes :{{quote.vote}}</p>
 <button type="button" class="btn btn-outline-success" (click)="upvote()">Upvote</button>
 
-<button type="button" class="btn btn-outline-warning">Downvote</button><br>
+<button type="button" class="btn btn-outline-warning" (click)="downvote()">Downvote</button><br>
 
 <button class="btn btn-danger" (click) = 'delete(true)'> Delete quote</button>
 
