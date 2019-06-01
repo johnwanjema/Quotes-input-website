@@ -1,5 +1,6 @@
+import { Quotes } from './../quotes';
 import { Component, OnInit } from '@angular/core';
-import { Quotes } from '../quotes';
+
 
 @Component({
   selector: 'app-quote',
@@ -8,7 +9,7 @@ import { Quotes } from '../quotes';
 })
 export class QuoteComponent implements OnInit {
   quotes = [
-    // tslint:disable-next-line: max-line-length
+
     new Quotes(1, 'I am thankful for all of those who said NO to me. It`s because of them i`m doing it myself.', `Albert Einstein`, 0, new Date(2019, 5, 30)),
     new Quotes(2, 'If you do what youve always done, you`ll get what youve always gotten. ', `Tony Robbins
     `, 0, new Date(2018, 3, 14)),
@@ -18,11 +19,19 @@ export class QuoteComponent implements OnInit {
 
 
   ];
-  deleteQuote(isComplete,index){
-    if (isComplete){
-        this.quotes.splice(index,1);
-        }
-        }
+  deleteQuote(isComplete, index) {
+    if (isComplete) {
+      this.quotes.splice(index, 1);
+    }
+  }
+  addNewQuote(quote) {
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength + 1;
+    quote.date = new Date(quote.date)
+    this.quotes.push(quote)
+
+  }
+
   constructor() { }
 
   ngOnInit() {
