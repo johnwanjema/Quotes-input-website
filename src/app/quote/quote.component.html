@@ -1,4 +1,5 @@
 <div class="container">
+  <app-quoteform></app-quoteform>
   <div *ngFor='let quote of quotes;let i = index'>
     <li>{{quote.name}} {{quote.vote}}</li>
     <app-quote-details [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>

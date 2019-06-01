@@ -1,12 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteDetailsComponent } from './quote-details/quote-details.component';
 import { HighlightDirective } from './highlight.directive';
 import { TimePastPipe } from './time-past.pipe';
-import { QuoteormComponent } from './quoteorm/quoteorm.component';
+import { QuoteformComponent } from './quoteform/quoteform.component';
 
 @NgModule({
   declarations: [
@@ -15,10 +15,10 @@ import { QuoteormComponent } from './quoteorm/quoteorm.component';
     QuoteDetailsComponent,
     HighlightDirective,
     TimePastPipe,
-    QuoteormComponent
+    QuoteformComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
