@@ -1,6 +1,23 @@
-# Quotes
+# {QUOTES}
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+#### {Created on {6/1/2019}
+#### By **{John Wanjema}**
+## Description
+{This  an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. }
+
+## Setup/Installation Requirements
+{ }
+
+## Technologies Used
+{ created application using
+* CSS
+* HTML
+* BOOTSTRAP
+*  Angular CLI.
+}
+
+
+                                         
 
 ## Development server
 

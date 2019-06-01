@@ -5,7 +5,7 @@
     </div>
     <div class="col">
       <div *ngFor='let quote of quotes;let i = index'>
-        <li>{{quote.name}} {{quote.vote}}</li>
+        <li>{{quote.name}}</li>
         <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
       </div>
     </div>
