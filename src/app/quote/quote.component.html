@@ -1,7 +1,13 @@
 <div class="container">
-  <app-quoteform (addQuote)="addNewQuote($event)"></app-quoteform>
-  <div *ngFor='let quote of quotes;let i = index'>
-    <li>{{quote.name}} {{quote.vote}}</li>
-    <app-quote-details [quote]='quote' (isComplete)= 'deleteQuote($event,i)'></app-quote-details>
+  <div class="row">
+    <div class="col">
+      <app-quoteform (addQuote)="addNewQuote($event)"></app-quoteform>
+    </div>
+    <div class="col">
+      <div *ngFor='let quote of quotes;let i = index'>
+        <li>{{quote.name}} {{quote.vote}}</li>
+        <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+      </div>
+    </div>
   </div>
 </div>
