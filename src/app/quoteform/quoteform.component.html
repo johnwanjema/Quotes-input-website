@@ -1,10 +1,10 @@
 <div class="container-fluid">
-  <form #quoteForm='ngForm' (ngSubmit)='submitQuote()' >
+  <form #quoteForm='ngForm' (ngSubmit)='submitQuote();'>
     <div class="form-group">
       <label for="quote">Quote</label>
-      <textarea class="form-control" id="name" [(ngModel)]="newQuotes.name" rows="3" placeholder="Quote"
-        name="name"  #name="ngModel" required></textarea>
-      
+      <textarea class="form-control" id="name" [(ngModel)]="newQuotes.name" rows="3" placeholder="Quote" name="name"
+        #name="ngModel" required></textarea>
+
       <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
         <p> Name is Required</p>
 
@@ -13,22 +13,30 @@
 
     <div class="form-group">
       <label for="author">Author</label>
-      <input type="text" class="form-control" id="author" placeholder="Author" [(ngModel)]="newQuotes.author" name="author" #author="ngModel" required>
+      <input type="text" class="form-control" id="author" placeholder="Author" [(ngModel)]="newQuotes.author"
+        name="author" #author="ngModel" required>
       <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
         <p> Author is Required</p>
 
-    </div>
+      </div>
     </div>
 
     <div class="form-group">
       <label for="date">Date</label>
-      <input type="date" class="form-control" id="date"   [(ngModel)]="newQuotes.date"  name="date" #date="ngModel" required >
+      <input type="date" class="form-control" id="date" [(ngModel)]="newQuotes.date" name="date" #date="ngModel"
+        required>
       <div [hidden]="date.valid || date.pristine" class="alert alert-danger">
         <p>Date is Required</p>
 
+      </div>
     </div>
+    <div class="row">
+      <div class="col">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      <div class="col">
+        <button type="submit" class="btn btn-primary" (click)="quoteForm.reset()">RESET</button>
+      </div>
     </div>
-
-    <button type="submit" class="btn btn-primary">Submit</button>
   </form>
 </div>

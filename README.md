@@ -46,5 +46,5 @@ phone number:0721273839 for inquries and contributions.}
 [LICENSE]((https://github.com/johnwanjema/quotes/blob/master/LICENSE))
 
 
-##Acknowledgments
+## Acknowledgments
 John Wanjema
