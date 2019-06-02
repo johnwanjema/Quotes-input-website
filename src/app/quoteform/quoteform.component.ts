@@ -8,15 +8,14 @@ import { Component, OnInit, EventEmitter, Output, } from '@angular/core'
 })
 export class QuoteformComponent implements OnInit {
 
-  newQuotes = new Quotes(0, '', '', 0,``, new Date());
+  newQuotes = new Quotes(0, '', '', 0, ``, new Date());
   @Output() addQuote = new EventEmitter<Quotes>();
 
-
-  submitQuote(quoteForm) {
-      this.addQuote.emit(this.newQuotes);
-
-
-  }
+    submitQuote() {
+    this.addQuote.emit(this.newQuotes);
+    this.newQuotes = new Quotes(0, '', '', 0, ``, new Date());
+    this.name
+    }
 
   constructor() { }
 
