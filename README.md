@@ -2,6 +2,7 @@
 
 #### {Created on {6/1/2019}
 #### By **{John Wanjema}**
+### {current Version 1.0}
 ## Description
 {This  an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. }
 
@@ -9,9 +10,9 @@
 { You need a web browser installed on your machine to run this program
 Clone the repository to your local machine from the online repository(https://github.com/johnwanjema/quotes)}
 
-##live site
-{click here to acess the live site(https://arnoldoduma.github.io/Pig-Dice/)
-![Test Image 1](./assets/Screenshot from 2019-06-01 19-21-46.png)
+###live site
+[![Live site](./src/assets/1.png)]
+{click here to acess the live site(https://johnwanjema/github.io/quotes/)
 }
 
 ## Technologies Used
@@ -30,7 +31,7 @@ Clone the repository to your local machine from the online repository(https://gi
 | -------------            | -------------         |------------------------|
 | Upvote                   |                       | adds quotes votes      |   
 | -------------            | -------------         |------------------------| 
-| Downvote                 | lengths(3,4,5)        | subtracts quotes votes |
+| Downvote                 |                       | subtracts quotes votes |
 | -------------            | -------------         |------------------------|
 | Delete                   |                       | deletes quote          |
 | -------------            | -------------         |------------------------|
@@ -42,7 +43,8 @@ Clone the repository to your local machine from the online repository(https://gi
 phone number:0721273839 for inquries and contributions.}
 
 ### License
-(https://github.com/johnwanjema/quotes/blob/master/LICENSE)
+[LICENSE]((https://github.com/johnwanjema/quotes/blob/master/LICENSE))
+
 
 ##Acknowledgments
 John Wanjema

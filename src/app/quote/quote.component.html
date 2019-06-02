@@ -4,6 +4,7 @@
       <app-quoteform (addQuote)="addNewQuote($event)"></app-quoteform>
     </div>
     <div class="col">
+        <p appHighlight>Highlight me!</p>
       <div *ngFor='let quote of quotes;let i = index'>
         <li>{{quote.name}}</li>
         <app-quote-details [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
