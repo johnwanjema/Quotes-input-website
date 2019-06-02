@@ -10,7 +10,7 @@
 { You need a web browser installed on your machine to run this program
 Clone the repository to your local machine from the online repository(https://github.com/johnwanjema/quotes)}
 
-###live site
+## live site
 [![Live site](./src/assets/1.png)]
 {click here to acess the live site(https://johnwanjema/github.io/quotes/)
 }
@@ -42,7 +42,7 @@ Clone the repository to your local machine from the online repository(https://gi
 {contact me through jonwanjema@gmail.com 
 phone number:0721273839 for inquries and contributions.}
 
-### License
+## License
 [LICENSE]((https://github.com/johnwanjema/quotes/blob/master/LICENSE))
 
 

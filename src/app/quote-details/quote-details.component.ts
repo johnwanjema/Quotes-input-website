@@ -15,11 +15,11 @@ export class QuoteDetailsComponent implements OnInit {
     this.isComplete.emit(complete);
   }
 
-  upvote(Quotes){
+  upvote(){
 
     this.quote.vote = this.quote.vote +1;
   }
-  downvote(Quotes){
+  downvote(){
 
     this.quote.vote = this.quote.vote -1;
   }
