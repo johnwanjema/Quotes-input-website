@@ -1,4 +1,4 @@
-# {QUOTES}
+# QUOTES
 
 #### {Created on {6/1/2019}
 #### By **{John Wanjema}**
@@ -43,7 +43,7 @@ Clone the repository to your local machine from the online repository(https://gi
 phone number:0721273839 for inquries and contributions.}
 
 ## License
-[LICENSE]((https://github.com/johnwanjema/quotes/blob/master/LICENSE))
+LICENSE(https://github.com/johnwanjema/quotes/blob/master/LICENSE)
 
 
 ## Acknowledgments
