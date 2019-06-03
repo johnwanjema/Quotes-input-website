@@ -19,7 +19,7 @@ export class TimePastPipe implements PipeTransform {
     var dateCounter = dateDifferenceSeconds / secondsInADay;
 
     // if (dateCounter >= 1 && value > todayWithNoTime){
-    return dateDifference;
+    return todayWithNoTime;
     // }else{
     //     return 0;
     // }

@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class QuoteComponent implements OnInit {
   quotes = [
 
-    new Quotes(1, 'I am thankful for all of those who said NO to me. It`s because of them i`m doing it myself.', `Albert Einstein`, 0,`wanje`, new Date(2019, 5, 30)),
+    new Quotes(1, 'I am thankful for all of those who said NO to me. It`s because of them i`m doing it myself.', `Albert Einstein`,0, 0,`wanje`, new Date(2019, 5, 30)),
 
   ];
   deleteQuote(isComplete, index) {
